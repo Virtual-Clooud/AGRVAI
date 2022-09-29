@@ -1,19 +1,22 @@
 extends KinematicBody2D
 
-var life = 10
-var speed = 300
-var jumpF = 500
-var fused = true
-var red = 0
-var blue = 0
-var green = 0
-
+export var life = 10
+export var speed = 300
+export var jumpF = 500
+export var fused = true 
+export var red = 0
+export var blue = 0
+export var green = 0
+export var selected = 0 #0 = R 1 = B 2 = G
 func red():
 	pass
 func blue():
 	pass
 func green():
 	pass
+func fuse():
+	pass
+	
 func _ready():
 	pass
 
